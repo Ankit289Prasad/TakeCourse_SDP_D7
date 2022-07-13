@@ -1,0 +1,9 @@
+.vid-content a {
+    background: linear-gradient(to right, rgb(32, 0, 44), rgb(150, 45, 199), rgb(197, 32, 197));
+    border: linea;
+    font-size: 12px;
+}
+
+.crbg {
+    display: list-item;
+}

@@ -1,0 +1,364 @@
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none !important;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden!important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.card {
+    max-width: 18rem;
+}
+
+.navbar-brand small {
+    font-family: "Ubuntu", sans-serif!important;
+    font-size: 40%;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.card-body a {
+    font-weight: bold!important;
+}
+
+.card-header {
+    color: rgb(241, 218, 255);
+    font-weight: bold;
+    font-size: 1.2rem;
+    z-index: 99;
+}
+
+.db {
+    background-image: -webkit-linear-gradient(100deg, #00378a 50%, #0e52e2 50%);
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.568);
+}
+
+.dbc {
+    background-image: url('../admin/ad.png');
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.603);
+}
+
+.dbc .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(125, 164, 207, 0.479);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.sb {
+    background-image: -webkit-linear-gradient(100deg, #6b016b 50%, #aa009c 50%);
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.568);
+}
+
+.sbc {
+    background-image: url('../admin/as.png');
+}
+
+.sbc .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(193, 142, 235, 0.466);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.card-body h4,
+.card-body a {
+    color: #fff;
+    text-align: center;
+    animation: glow 5s ease-in-out infinite alternate;
+    position: relative;
+    z-index: 100;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+    to {
+        text-shadow: 0 0 20px rgb(0, 0, 0);
+    }
+}
+
+.tabh {
+    background-color: #550e3d;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    padding: 2px;
+}
+
+.cb {
+    background-image: -webkit-linear-gradient(100deg, #be008f 50%, #ff18ba 50%);
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.568);
+}
+
+.cbc {
+    background-image: url('../admin/ac.png');
+    object-fit: contain;
+}
+
+.cbc .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(232, 142, 235, 0.466);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgb(54, 17, 78), rgba(126, 25, 156, 0.85));
+}
+
+.navbar-brand {
+    font-family: 'Pattaya', sans-serif!important;
+    font-size: 2em;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#scrollPath {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(138, 37, 37, 0.05);
+}
+
+#progressbar {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #5900ff, #f700ff);
+    animation: animate 2s linear infinite;
+}
+
+.fh1 {
+    color: rgb(255, 0, 212);
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #section-to-print,
+    #section-to-print * {
+        visibility: visible;
+    }
+    #section-to-print {
+        -webkit-print-color-adjust: exact;
+        left: 0;
+        top: 0;
+    }
+    #section-to-print tr th {
+        color: rgb(67, 0, 99) !important;
+    }
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(40deg);
+    }
+}
+
+.nav-link {
+    color: rgb(115, 23, 151) !important;
+}
+
+.active {
+    background-color: #641d64;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: rgb(82, 34, 88) !important;
+}
+
+.active:hover {
+    color: rgb(232, 199, 240) !important;
+}
+
+
+/* Plus Button for adding New Users Bottom Right */
+
+.box {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    margin-bottom: 30px;
+}
+
+.row1 {
+    background-color: rgb(255, 240, 255);
+}
+
+.hbg th {
+    border: 1px solid rgb(80, 0, 80);
+}
+
+.hbg {
+    background-color: rgb(158, 46, 192);
+    color: white;
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.568);
+}
+
+.row2 {
+    background-color: #fffbff;
+}
+
+.drag {
+    display: none !important;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.smm1 {
+    margin-right: 5px !important;
+}
+
+.spc {
+    margin-top: 50px !important;
+}
+
+.tdate {
+    font-size: 1.3rem;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.searchbtnsr {
+    background-color: #7e0058;
+}
+
+.searchbtnsr:hover {
+    background-color: rgb(185, 3, 116);
+}
+
+.reciept {
+    margin-top: -400px !important;
+}
+
+.printbtn {
+    background-color: #370075;
+}
+
+.marginps {
+    margin-left: -35%;
+}
+
+.jumbotron1 {
+    background-color: #ddcedf !important;
+    border-radius: 10px !important;
+    padding: 5% !important;
+}
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    .marginps {
+        margin-left: -11%;
+    }
+    #scrollPath {
+        position: fixed;
+        z-index: 999;
+        width: 2px;
+    }
+    #progressbar {
+        position: fixed;
+        z-index: 999;
+        width: 2px;
+    }
+    .card {
+        max-width: 100% !important;
+    }
+    .tc {
+        padding: 0 !important;
+        margin-top: 10px !important;
+        align-content: center !important;
+    }
+    .pcc {
+        margin-left: 7% !important;
+        margin-top: 10px !important;
+        margin-right: 7% !important;
+    }
+    .pcc1 {
+        margin-left: 3% !important;
+        margin-top: 10px !important;
+        margin-right: 3% !important;
+    }
+    .nav-item a {
+        font-size: 1.2rem !important;
+    }
+    .hbg th {
+        font-weight: normal !important;
+    }
+    table {
+        margin-bottom: 0px !important;
+    }
+    .drag {
+        display: inline !important;
+        text-decoration: none !important;
+        color: rgb(46, 0, 58);
+        font-size: large;
+    }
+    .tabh {
+        margin-bottom: 0 !important;
+    }
+    .smm {
+        font-size: 12px;
+        padding: 4px;
+    }
+    .smm1 {
+        margin-right: -2px !important;
+    }
+    .cmm {
+        font-size: 12px !important;
+        padding: 4px !important;
+    }
+    .cmm1 {
+        margin-right: -2px !important;
+    }
+    .spci {
+        margin-left: 0% !important;
+        width: 110%;
+    }
+    .spc button {
+        font-size: 15px;
+        padding: 6px;
+        margin-top: 4% !important;
+    }
+    .tdate {
+        padding-right: 20px !important;
+    }
+    .zidx {
+        z-index: -1 !important;
+    }
+}

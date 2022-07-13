@@ -1,0 +1,207 @@
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none !important;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.fh1 {
+    color: rgb(255, 0, 212);
+}
+
+.navbar-brand small {
+    font-family: "Ubuntu", sans-serif!important;
+    font-size: 40%;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.navbar {
+    background: linear-gradient(to right, rgb(54, 17, 78), rgba(126, 25, 156, 0.85));
+}
+
+.bgwc {
+    background: linear-gradient(to right, rgb(54, 17, 78), rgba(126, 25, 156, 0.85));
+}
+
+.bgwc h3 {
+    font-family: 'Pattaya', sans-serif !important;
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 70% !important;
+}
+
+video {
+    width: 95% !important;
+    border-radius: 2%;
+}
+
+.navbar-brand {
+    font-family: 'Pattaya', sans-serif!important;
+    font-size: 2em;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#scrollPath {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(138, 37, 37, 0.05);
+}
+
+#progressbar {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #5900ff, #f700ff);
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(40deg);
+    }
+}
+
+.nav-link {
+    color: rgb(115, 23, 151) !important;
+}
+
+.lessons {
+    color: rgb(115, 23, 151) !important;
+    border-radius: 5px;
+}
+
+.lessons:hover {
+    color: rgb(54, 0, 73) !important;
+    background-color: rgb(245, 222, 245);
+}
+
+.active:hover {
+    background-color: #641d64 !important;
+}
+
+.active {
+    background-color: #641d64;
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: rgb(82, 34, 88) !important;
+}
+
+.active:hover {
+    color: rgb(232, 199, 240) !important;
+}
+
+.searchbtnsr1 {
+    background-color: #3a0046;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+}
+
+.searchbtnsr1:hover {
+    background-color: rgb(253, 228, 250);
+    color: rgb(45, 0, 54);
+    border-color: rgb(47, 0, 56);
+    border-style: double;
+}
+
+.searchbtnsr {
+    background-color: #7e0058;
+}
+
+.searchbtnsr:hover {
+    background-color: rgb(185, 3, 116);
+}
+
+.zzdx {
+    z-index: -2 !important;
+}
+
+.jumbotron1 {
+    background-color: #ddcedf !important;
+    border-radius: 10px !important;
+    padding: 5% !important;
+}
+
+.cardbgg h5 {
+    background-color: rgb(77, 48, 77);
+}
+
+.cardbgg {
+    background-color: rgb(240, 228, 240);
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.profile-pic img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid rebeccapurple !important;
+    border-radius: 50%;
+}
+
+.tabh {
+    background-color: #550e3d;
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+    padding: 2px;
+}
+
+@media screen and (min-width:0px) and (max-width:700px) {
+    #scrollPath {
+        position: fixed;
+        z-index: 999;
+        width: 2px;
+    }
+    #progressbar {
+        position: fixed;
+        z-index: 9999;
+        width: 2px;
+    }
+    .zix {
+        z-index: 1 !important;
+    }
+    .bgwc h3 {
+        font-size: 1.4rem;
+        padding-top: 5px;
+        margin-right: 2% !important;
+    }
+    .bgwc a {
+        height: 30%;
+        width: 30%;
+        font-size: 70%;
+    }
+}
